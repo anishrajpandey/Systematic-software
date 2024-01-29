@@ -6,7 +6,7 @@ body {
   display: flex;
   width: 100vw;
   height: 5rem;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 2rem 1.5rem 3em;
   align-items: center;
   flex-shrink: 0;
   background: #fff;
@@ -16,6 +16,7 @@ body {
 .menu {
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 .logo {
   width: 9.4375rem;
@@ -64,7 +65,8 @@ body {
 .cocreate {
   box-sizing: border-box;
   display: flex;
-  padding: 0.5rem;
+  padding: 0.8rem 0.7rem;
+  /* margin-left: 2rem; */
   /* align-items: flex-; */
   font-size: 1rem;
 

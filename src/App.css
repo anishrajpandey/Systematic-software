@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap");
 body {
   font-family: "Raleway", sans-serif !important;
+  overflow-x:hidden;
 }
 .fcontainer {
   display: flex;
   width: 100vw;
-  height: 5rem;
+  height: 5.05rem;
   padding: 1.5rem 2rem 1.5rem 3em;
   align-items: center;
   flex-shrink: 0;
@@ -22,7 +23,7 @@ body {
   width: 9.4375rem;
   flex-shrink: 0;
   color: #304bab;
-  font-size: 3.30875rem;
+  font-size: 3.25rem;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -68,8 +69,6 @@ body {
   box-sizing: border-box;
   display: flex;
   padding: 0.8rem 0.7rem;
-  /* margin-left: 2rem; */
-  /* align-items: flex-; */
   font-size: 1rem;
 
   background: #304bab;
@@ -81,14 +80,97 @@ body {
   font-weight: 900;
   line-height: normal;
 }
-
-.main {
-  height: 100vh;
-  background: red;
-}
 img.handshake {
   width: 20px;
   height: 20px;
   margin-right: 2px;
   display: inline-block;
 }
+
+.main {
+  height: 100vh;
+  }
+.mainone{
+  width: 40rem;
+  color: #000;
+font-family: Raleway;
+font-size: 3.75rem;
+font-style: normal;
+font-weight: 900;
+line-height: 3.25rem;
+margin-top: 3.25rem;
+gap:3rem;
+padding-left: 2.75rem;
+letter-spacing: 2.75px;
+line-height: 3.85rem;
+}
+.maintwo{
+  color:#304BAB;
+  gap:3rem;
+}
+.mainthree{
+  color: #0B0B0C;
+  font-family: Raleway;
+font-size: 1.50rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 2.75rem;
+margin-top: 3.75rem;
+}
+.mainfour{
+  width: 36.875rem;
+  color: #000;
+  text-align: justify;
+font-family: Raleway;
+font-size: 1.20rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem;
+letter-spacing: 2.5px;
+padding-left: 2.75rem;
+margin-top: 3.5rem;
+}
+.mainfive{
+  width: 38rem;
+  height: 38rem;
+  position: absolute;
+right: 0rem;
+bottom: -3.95rem;
+border-radius: 0rem 0rem 0rem 7.6875rem;
+background: #F3EFEF;
+margin-top: 6rem;
+}
+.joinsystematic{
+  color: #0B0B0C;
+text-align: justify;
+font-family: Raleway;
+font-size: 1rem;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+padding-left: 2.75rem;
+line-height: 6rem;
+}
+img.blackarrow{
+  width: 1.25rem;
+  height: 1.25rem;
+  padding-left: 0rem;
+}
+.buildwithus{
+  color: #304BAB;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-left: 2.75rem;
+  line-height: 6rem;
+ }
+img.bluearrow{
+  width: 1.25rem;
+  height: 1.25rem;
+  padding-left: 0rem;
+}
+

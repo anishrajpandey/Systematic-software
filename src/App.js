@@ -13,7 +13,7 @@ function App() {
      <div className ="blog">Blog</div>
      <div className ="aboutus">About Us</div>
      <div className="cocreate">
-     <div className="cocreatewithus">CO-CREATE WITH US</div>
+     <div className="cocreatewithus">CO_CREATE WITH US</div>
      </div>
      </div>
     </div>

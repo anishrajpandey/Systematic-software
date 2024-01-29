@@ -90,3 +90,90 @@ img.handshake {
   margin-right: 2px;
   display: inline-block;
 }
+
+.main {
+  height: 100vh;
+}
+.mainone {
+  width: 40rem;
+  color: #000;
+  font-family: Raleway;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.25rem;
+  margin-top: 3.25rem;
+  gap: 3rem;
+  padding-left: 2.75rem;
+  letter-spacing: 2.75px;
+  line-height: 3.85rem;
+}
+.maintwo {
+  color: #304bab;
+  gap: 3rem;
+}
+.mainthree {
+  color: #0b0b0c;
+  font-family: Raleway;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 2.75rem;
+  margin-top: 3.75rem;
+}
+.mainfour {
+  width: 36.875rem;
+  color: #000;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 2.5px;
+  padding-left: 2.75rem;
+  margin-top: 3.5rem;
+}
+.mainfive {
+  width: 38rem;
+  height: 38rem;
+  position: absolute;
+  right: 0rem;
+  bottom: -3.95rem;
+  border-radius: 0rem 0rem 0rem 7.6875rem;
+  background: #f3efef;
+  margin-top: 6rem;
+}
+.joinsystematic {
+  color: #0b0b0c;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-left: 2.75rem;
+  line-height: 6rem;
+}
+img.blackarrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  padding-left: 0rem;
+}
+.buildwithus {
+  color: #304bab;
+  text-align: justify;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-left: 2.75rem;
+  line-height: 6rem;
+}
+img.bluearrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  padding-left: 0rem;
+}

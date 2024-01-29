@@ -1,81 +1,91 @@
-.fcontainer{
+.fcontainer {
   display: flex;
-width: 100vw;
-height: 5rem;
-padding: 1.5rem 3rem;
-align-items: center;
-flex-shrink: 0;background: #FFF;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-gap:23rem;
+  width: 100vw;
+  height: 5rem;
+  padding: 1.5rem 3rem;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  gap: 21rem;
 }
-.menu{
-  display:flex;
-  gap:50px;
+.menu {
+  display: flex;
+  gap: 50px;
 }
-.logo{
+.logo {
   width: 9.4375rem;
-flex-shrink: 0;
-color: #304BAB;
-font-family: Arial;
-font-size: 3.30875rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+  flex-shrink: 0;
+  color: #304bab;
+  font-family: Arial;
+  font-size: 3.30875rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.home{
-  color: #0A0A0A;
-font-family: Arial;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-
+.home {
+  color: #0a0a0a;
+  font-family: Arial;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.services{
-  color: #0A0A0A;
-font-family: Arial;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.services {
+  color: #0a0a0a;
+  font-family: Arial;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.joinus{
-  color: #0A0A0A;
-font-family: Arial;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.joinus {
+  color: #0a0a0a;
+  font-family: Arial;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.blog{
-  color: #0A0A0A;
-font-family: Arial;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.blog {
+  color: #0a0a0a;
+  font-family: Arial;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.aboutus{
-  color: #0A0A0A;
-font-family: Arial;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.aboutus {
+  color: #0a0a0a;
+  font-family: Arial;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.cocreate{
+.cocreate {
+  box-sizing: border-box;
   display: flex;
-padding: 0.25rem;
-align-items: center;
-gap: 0.5rem;
-background: #304BAB;
+  padding: 0.5rem;
+  /* align-items: flex-; */
+  font-size: 1rem;
+
+  background: #304bab;
 }
-.cocreatewithus{
-  color: #FFF;
-font-family: Arial;
-font-size: 1rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.cocreatewithus {
+  color: #fff;
+  font-family: Arial;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
 
+.main {
+  height: 100vh;
+  background: red;
+}
+img.handshake {
+  width: 20px;
+  height: 20px;
+}

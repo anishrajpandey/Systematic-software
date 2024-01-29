@@ -177,3 +177,12 @@ img.bluearrow {
   height: 1.25rem;
   padding-left: 0rem;
 }
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+}
+.joinsystematic,
+.buildwithus {
+  display: flex;
+  gap: 0.05rem;
+}

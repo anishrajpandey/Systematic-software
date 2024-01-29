@@ -20,21 +20,34 @@ function App() {
           </div>
         </div>
       </div>
-       <div className="name">
-            <div className="mainone">RIGHT TIME-RIGHT REPORT:<span className="maintwo">SYSTEMATIC SOFTWARE.</span></div>
-            <div className="mainthree">Software Development Center </div>
-            <div className="mainfour">As a software company, we design a variety of online/offline software, web applications, and mobile applications. We assist businesses in envisioning and crafting futuristic digital experiences. </div>
-            <div className="mainfive"></div>
-            <div className="joinsystematic">
-            <div className="blackarrow">Join Systematic
-              <img src="/blackarrow.svg" alt="arrow" className="blackarrow"/>
-              </div>
-              <div className="buildwithus"></div>
-              <div className="bluearrow">Build With Us
-                <img arc="/bluearrow.svg" alt="arrow" className="bluearrow"/>
-              </div>
-              </div>
-    </div>
+      <div className="name">
+        <div className="mainone">
+          RIGHT TIME-RIGHT REPORT:
+          <span className="maintwo">SYSTEMATIC SOFTWARE.</span>
+        </div>
+        <div className="mainthree">Software Development Center </div>
+        <div className="mainfour">
+          As a software company, we design a variety of online/offline software,
+          web applications, and mobile applications. We assist businesses in
+          envisioning and crafting futuristic digital experiences.{" "}
+        </div>
+        <div className="mainfive"></div>
+        <div className="buttons">
+          <div className="joinsystematic">
+            Join Systematic
+            <div className="blackarrow">
+              <img src="/blackarrow.svg" alt="arrow" className="blackarrow" />
+            </div>
+          </div>
+
+          <div className="buildwithus">
+            Build with Us
+            <div className="bluearrow">
+              <img src="/bluearrow.svg" alt="arrow" className="bluearrow" />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

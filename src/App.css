@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap');
-body{
-  font-family: 'Raleway', sans-serif !important;
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap");
+body {
+  font-family: "Raleway", sans-serif !important;
 }
 .fcontainer {
   display: flex;
@@ -20,48 +19,47 @@ body{
 }
 .logo {
   width: 9.4375rem;
-flex-shrink: 0;
-color: #304BAB;
-font-size: 3.30875rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+  flex-shrink: 0;
+  color: #304bab;
+  font-size: 3.30875rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-.home{
-  color: #0A0A0A;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-
+.home {
+  color: #0a0a0a;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.services{
-  color: #0A0A0A;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.services {
+  color: #0a0a0a;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.joinus{
-  color: #0A0A0A;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.joinus {
+  color: #0a0a0a;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.blog{
-  color: #0A0A0A;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.blog {
+  color: #0a0a0a;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.aboutus{
-  color: #0A0A0A;
-font-size: 1.15rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.aboutus {
+  color: #0a0a0a;
+  font-size: 1.15rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .cocreate {
   box-sizing: border-box;
@@ -72,14 +70,13 @@ line-height: normal;
 
   background: #304bab;
 }
-.cocreatewithus{
-  color: #FFF;
-font-size: 1rem;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+.cocreatewithus {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
-
 
 .main {
   height: 100vh;
@@ -88,4 +85,6 @@ line-height: normal;
 img.handshake {
   width: 20px;
   height: 20px;
+  margin-right: 2px;
+  display: inline-block;
 }

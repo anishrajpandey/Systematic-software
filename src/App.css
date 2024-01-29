@@ -22,7 +22,6 @@ body{
   width: 9.4375rem;
 flex-shrink: 0;
 color: #304BAB;
-font-family: Arial;
 font-size: 3.30875rem;
 font-style: normal;
 font-weight: 900;
@@ -30,7 +29,6 @@ line-height: normal;
 }
 .home{
   color: #0A0A0A;
-font-family: Arial;
 font-size: 1.15rem;
 font-style: normal;
 font-weight: 600;
@@ -39,7 +37,6 @@ line-height: normal;
 }
 .services{
   color: #0A0A0A;
-font-family: Arial;
 font-size: 1.15rem;
 font-style: normal;
 font-weight: 400;
@@ -47,7 +44,6 @@ line-height: normal;
 }
 .joinus{
   color: #0A0A0A;
-font-family: Arial;
 font-size: 1.15rem;
 font-style: normal;
 font-weight: 400;
@@ -55,7 +51,6 @@ line-height: normal;
 }
 .blog{
   color: #0A0A0A;
-font-family: Arial;
 font-size: 1.15rem;
 font-style: normal;
 font-weight: 400;
@@ -63,7 +58,6 @@ line-height: normal;
 }
 .aboutus{
   color: #0A0A0A;
-font-family: Arial;
 font-size: 1.15rem;
 font-style: normal;
 font-weight: 400;
@@ -80,7 +74,6 @@ line-height: normal;
 }
 .cocreatewithus{
   color: #FFF;
-font-family: Arial;
 font-size: 1rem;
 font-style: normal;
 font-weight: 900;

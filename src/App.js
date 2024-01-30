@@ -50,6 +50,9 @@ function App() {
     <div className ="bluebox">
       <div className="ourservices">Our Services</div>
     </div>
+    <div className="line">
+      <img src ="/line.svg" alt="line" className="line"/>
+    </div>
       
 
       </div>

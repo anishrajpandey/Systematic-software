@@ -20,7 +20,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="name">
+      <div className="main">
         <div className="mainone">
           RIGHT TIME-RIGHT REPORT:
           <span className="maintwo">SYSTEMATIC SOFTWARE.</span>
@@ -47,6 +47,11 @@ function App() {
             </div>
           </div>
         </div>
+    <div className ="bluebox">
+      <div className="ourservices">Our Services</div>
+    </div>
+      
+
       </div>
     </>
   );

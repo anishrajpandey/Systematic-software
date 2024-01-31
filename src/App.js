@@ -47,15 +47,19 @@ function App() {
             </div>
           </div>
         </div>
-    <div className ="bluebox">
-      <div className="ourservices">Our Services</div>
+    <div className ="fbluebox">
+      <div className="fbox"></div>
+        <div className="fbox"> </div>
+        <div className="fbox"></div>
+        <div className="ourservices">Our Services</div>
     </div>
-    <div className="line">
-      <img src ="/line.svg" alt="line" className="line"/>
-    </div>
+        
+       
       
-
-      </div>
+   
+   
+    </div>
+  
     </>
   );
 }

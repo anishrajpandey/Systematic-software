@@ -188,91 +188,104 @@ img.bluearrow {
   background: #304bab;
   margin-top: 3rem;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
-.fbox{
-  display: flex;
-  flex-direction: column;
+.fbox {
+  /* flex-direction: column; */
   background-color: rgb(147, 147, 242);
-  margin: 2rem;
-  width: 3.5rem;
-  height:16rem;
+  width: 20rem;
+  height: 16rem;
   border-radius: 1rem 1rem 1rem 1rem;
-  padding: 9rem;
+  /* padding: 9rem; */
   margin-left: 3rem;
-  margin-top: 7rem;
-  margin-right: 3rem;
+
   align-items: center;
   justify-content: center;
 }
-.sms{
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  width:100%;
-  margin-top: -80px;
-}
 
-img.sms{
+.fbox > .sms,
+.fbox > .googlemobile,
+.fbox > .setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+img:is(.sms, .setting, .googlemobile) {
   width: 80px;
   height: 80px;
+  display: inline-block;
+  margin-bottom: 1.2rem;
 }
 
-.googlemobile{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  width:100%;
-  margin-top: -80px;
-}
-
-img.googlemobile{
-  width:84.62px;
-  height: 82px;
-}
-.setting{
+/* .googlemobile {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: -80px;
+} */
+
+img.googlemobile {
+  /* width: 84.62px;
+  height: 82px; */
 }
-img.setting{
-  width:82px;
-  height:82px;
+/* .setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -80px;
+} */
+img.setting {
+  /* width: 82px;
+  height: 82px; */
 }
 .text-below {
-  text-align: center;
-  position: absolute;
-  margin-top: 3.75rem; 
-  margin-left: -30px;
-  font-size: 1.15rem;
-  color: #fff; 
+  text-align: justify;
+  /* position: absolute;   */
+  /* margin-top: 3.75rem; */
+  /* margin-left: -30px; */
+  width: 15rem;
+  font-size: 1rem;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: Raleway;
-  font-weight: 900px;
+  /* font-weight: bolder; */
+  /* background-color: red; */
+}
+.text-below b {
+  font-weight: bolder;
+
+  /* background-color: red; */
 }
 
-.textone{
+.textone {
+  margin-top: 0.5rem;
+  text-align: ju;
   display: flex;
   align-items: center;
   font-family: Raleway;
-  font-weight: 900px;
-  font-size: 1rem;
+  /* font-weight: 900px; */
+  font-size: 0.8rem;
   color: #fff;
   justify-content: center;
   align-items: flex-start;
-
 }
 .ourservices {
-position:absolute;
+  position: absolute;
   color: #ffffff;
   font-family: Raleway;
-  font-size: 1.65rem;
-  font-style: Light;
+  font-size: 2rem;
+  /* top: 
+  ; */
+  /* padding-top: 2rem; */
+  /* font-style: Light; */
+  text-transform: uppercase;
   font-weight: 600;
   line-height: normal;
   width: 100%;

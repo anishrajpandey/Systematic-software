@@ -48,9 +48,30 @@ function App() {
           </div>
         </div>
     <div className ="fbluebox">
-      <div className="fbox"></div>
-        <div className="fbox"> </div>
-        <div className="fbox"></div>
+       <div className="fbox">
+        <div className="sms">
+        <img src="/sms.svg" alt="sms" className="sms"/>
+        <div class="text-below">SMS
+        <div className="textone">With our Bulk SMS service, you can easily talk to your customers. It helps organizations send out promotions, alerts, updates, and official announcements.</div>
+        </div>
+       </div>
+       </div>
+        <div className="fbox">
+          <div className="googlemobile">
+            <img src="/googlemobile.svg" alt="Mobile" className="googlemobile"/>
+            <div className="text-below">App Development
+            <div className="textone">If you intend to connect with your customers through their mobile phones, all you require is a mobile app. Simply inform us of your specifications, and we'll</div>
+            </div>
+          </div>
+        </div>
+        <div className="fbox">
+          <div className="setting">
+            <img src="/setting.svg" alt="setting" className="setting"/>
+            <div className="text-below">Software Development
+            <div className="textone">We take all stages of the software development process seriously. Our primary goal is to (meet all out customer needs and requirements) meet the needs.</div>
+            </div>
+          </div>
+        </div>
         <div className="ourservices">Our Services</div>
     </div>
         

@@ -184,7 +184,7 @@ img.bluearrow {
   display: flex;
   height: 26rem;
   width: 85vw;
-  border-radius: 0rem 4.375rem 4.375rem 0rem;
+  border-radius: 0rem 3.75rem 3.75rem 0rem;
   background: #304bab;
   margin-top: 3rem;
   align-items: center;
@@ -193,26 +193,90 @@ img.bluearrow {
 
 .fbox{
   display: flex;
+  flex-direction: column;
   background-color: rgb(147, 147, 242);
-  margin: 1.75rem;
-  width: 100rem;
+  margin: 2rem;
+  width: 3.5rem;
   height:16rem;
-  align-items: center;
   border-radius: 1rem 1rem 1rem 1rem;
   padding: 9rem;
-margin-left: 3.5rem;
-margin-top: 6rem;
+  margin-left: 3rem;
+  margin-top: 7rem;
+  margin-right: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.sms{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width:100%;
+  margin-top: -80px;
+}
+
+img.sms{
+  width: 80px;
+  height: 80px;
+}
+
+.googlemobile{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  margin-top: -80px;
+}
+
+img.googlemobile{
+  width:84.62px;
+  height: 82px;
+}
+.setting{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: -80px;
+}
+img.setting{
+  width:82px;
+  height:82px;
+}
+.text-below {
+  text-align: center;
+  position: absolute;
+  margin-top: 3.75rem; 
+  margin-left: -30px;
+  font-size: 1.15rem;
+  color: #fff; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Raleway;
+  font-weight: 900px;
+}
+
+.textone{
+  display: flex;
+  align-items: center;
+  font-family: Raleway;
+  font-weight: 900px;
+  font-size: 1rem;
+  color: #fff;
+  justify-content: center;
+  align-items: flex-start;
+
 }
 .ourservices {
-
+position:absolute;
   color: #ffffff;
   font-family: Raleway;
-  font-size: 1.75rem;
+  font-size: 1.65rem;
   font-style: Light;
   font-weight: 600;
   line-height: normal;
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   height: 26rem;
   width: 86vw;

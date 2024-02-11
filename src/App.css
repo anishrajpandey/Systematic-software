@@ -279,7 +279,7 @@ img:is(.sms, .setting, .googlemobile) {
   height: 26rem;
   width: 86vw;
 }
-.trusted{
+.trusted {
   position: absolute;
   margin-top: 29rem;
   font-size: 2rem;
@@ -291,7 +291,7 @@ img:is(.sms, .setting, .googlemobile) {
   font-style: Raleway;
 }
 
-.paraone{
+.paraone {
   position: absolute;
   margin-top: 37rem;
   font-size: 1rem;
@@ -301,74 +301,72 @@ img:is(.sms, .setting, .googlemobile) {
   font-weight: 380;
   letter-spacing: 3.15px;
   width: 63rem;
-  
 }
-.sys{
- font-weight: bold;
+.sys {
+  font-weight: bold;
 }
 
-.examples{
+.examples {
   width: 100vw;
   height: 6rem;
   background-color: rgb(215, 213, 213);
   margin-top: 48rem;
 }
-.lumbini{
- width: 122px;
- height:50px;
-margin-top: 1.75rem;
-margin-left: 0.5rem;
+.lumbini {
+  width: 122px;
+  height: 50px;
+  margin-top: 1.75rem;
+  margin-left: 0.5rem;
 }
-.kalika{
-  width:150px;
+.kalika {
+  width: 150px;
   height: 70px;
   margin-left: 6.75rem;
   margin-top: -1rem;
 }
-.kantipur{
-  width:190px;
+.kantipur {
+  width: 190px;
   height: 80px;
   margin-left: 11rem;
   margin-top: -2.5rem;
 }
-.sanjeevani{
+.sanjeevani {
   width: 100px;
   height: 50px;
   margin-left: 18rem;
   margin-top: -4.25rem;
 }
-.sainamaina{
+.sainamaina {
   width: 40px;
   height: 40px;
   margin-left: 23rem;
   margin-top: -3.75rem;
 }
-.rotary{
+.rotary {
   width: 230px;
   height: 100px;
   margin-left: 24rem;
   margin-top: -3.45rem;
-
 }
-.oxford{
+.oxford {
   width: 150px;
   height: 80px;
   margin-left: 32rem;
   margin-top: -5rem;
 }
-.rambadevi{
+.rambadevi {
   width: 60px;
   height: 60px;
   margin-left: 39rem;
   margin-top: -4.75rem;
 }
-.footer{
+.footer {
   width: 100vw;
   background-color: #000;
   height: 300rem;
   margin-top: 5rem;
 }
-.footerone{
+.footerone {
   font-size: 54px;
   color: white;
   position: absolute;
@@ -376,37 +374,37 @@ margin-left: 0.5rem;
   margin-left: 23rem;
   font-weight: bold;
 }
-.boxone{
+.boxone {
   width: 22rem;
   height: 25rem;
-  position: absolute;;
+  position: absolute;
   border-radius: 0rem 0rem 0rem 4.5rem;
   background: hsl(0, 1%, 75%);
   margin-top: 8rem;
   margin-left: 19rem;
 }
-.boxtwo{
+.boxtwo {
   width: 22rem;
   height: 25rem;
-  position: absolute;;
+  position: absolute;
   border-radius: 0rem 4.5rem 0rem 0rem;
-  background:  hsl(0, 1%, 75%);
+  background: hsl(0, 1%, 75%);
   margin-top: 8rem;
   margin-left: 42.5rem;
 }
-.boxonetext{
+.boxonetext {
   position: absolute;
   margin-top: 15rem;
   margin-left: 1rem;
   font-size: 12px;
   color: #000;
   font-family: Raleway;
-  font-weight:500;
+  font-weight: 500;
   letter-spacing: 1.5px;
 }
-.cocreate2{
+.cocreate2 {
   font-size: 16px;
-  color:#304bab;
+  color: #304bab;
   position: absolute;
   font-weight: 1000;
   margin-top: 21.5rem;
@@ -414,7 +412,7 @@ margin-left: 0.5rem;
   margin-left: 1rem;
 }
 
-.boxonetext2{
+.boxonetext2 {
   position: absolute;
   margin-top: 19.5rem;
   margin-left: 1rem;
@@ -424,18 +422,17 @@ margin-left: 0.5rem;
   font-weight: 500;
   letter-spacing: 1.5px;
 }
-.boxtwotext{
+.boxtwotext {
   position: absolute;
   margin-top: 13.85rem;
   margin-left: 1rem;
   font-size: 12px;
   color: #000;
   font-family: Raleway;
-  font-weight:500;
+  font-weight: 500;
   letter-spacing: 1.5px;
-
 }
-.boxtwotext2{
+.boxtwotext2 {
   position: absolute;
   margin-top: 18.5rem;
   margin-left: 1rem;
@@ -444,28 +441,26 @@ margin-left: 0.5rem;
   font-family: Raleway;
   font-weight: 500;
   letter-spacing: 1.5px;
-
 }
-.joinus2{
+.joinus2 {
   font-size: 16px;
-  color:#304bab;
+  color: #304bab;
   position: absolute;
   font-weight: 1000;
   margin-top: 21.5rem;
   font-family: Raleway;
   margin-left: 1rem;
 }
-.stayintheloop{
+.stayintheloop {
   font-size: 29px;
   position: absolute;
   margin-top: 36rem;
   margin-left: 10rem;
-  color:#304bab;
+  color: #304bab;
   font-family: Raleway;
   font-weight: 850;
-
 }
-.boxthree{
+.boxthree {
   width: 32rem;
   height: 2.5rem;
   position: absolute;
@@ -473,9 +468,8 @@ margin-left: 0.5rem;
   background: hsl(0, 0%, 100%);
   margin-top: 36rem;
   margin-left: 25rem;
-
 }
-.youremail{
+.youremail {
   position: absolute;
   margin-top: 0.75rem;
   margin-left: 0.75rem;
@@ -484,15 +478,15 @@ margin-left: 0.5rem;
   color: #0b0b0c;
   font-weight: lighter;
 }
-.boxfour{
-  width:15rem;
-  height:2.5rem;
-  position:absolute;
+.boxfour {
+  width: 15rem;
+  height: 2.5rem;
+  position: absolute;
   background-color: #304bab;
   margin-top: 36rem;
   margin-left: 58rem;
 }
-.subscribe{
+.subscribe {
   position: absolute;
   margin-top: 0.5rem;
   margin-left: 0.75rem;
@@ -501,9 +495,8 @@ margin-left: 0.5rem;
   color: white;
   font-weight: bolder;
   font-size: 20px;
-
 }
-.line{
+.line {
   width: 74rem;
   height: 1px;
   position: absolute;
@@ -512,43 +505,42 @@ margin-left: 0.5rem;
   margin-left: 4.5rem;
   margin-right: 3rem;
 }
-.systematic{
+.systematic {
   position: absolute;
   margin-top: 45rem;
   margin-left: 5rem;
   font-size: 18px;
   color: #fff;
-
 }
-.call{
+.call {
   position: absolute;
-  margin-top: 24rem ;
+  margin-top: 24rem;
   margin-left: 2.25rem;
-  width:14px;
-  height:14px;
+  width: 14px;
+  height: 14px;
 }
-.number{
+.number {
   position: absolute;
   margin-top: 47.75rem;
   margin-left: 5.75rem;
   font-size: 14px;
   color: white;
 }
-.mail{
+.mail {
   position: absolute;
-  margin-top: 25rem ;
+  margin-top: 25rem;
   margin-left: 2.25rem;
-  width:14px;
-  height:14px;
+  width: 14px;
+  height: 14px;
 }
-.mailid{
+.mailid {
   position: absolute;
   margin-top: 49.75rem;
   margin-left: 5.75rem;
   font-size: 14px;
   color: white;
 }
-.wearesystematic{
+.wearesystematic {
   position: absolute;
   margin-top: 45rem;
   margin-left: 25rem;
@@ -556,15 +548,15 @@ margin-left: 0.5rem;
   color: #fff;
   font-weight: 900;
 }
-.aboutus2{
-  position:absolute;
+.aboutus2 {
+  position: absolute;
   margin-top: 47.5rem;
   margin-left: 25rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.blog2{
+.blog2 {
   position: absolute;
   margin-top: 49.5rem;
   margin-left: 25rem;
@@ -572,15 +564,15 @@ margin-left: 0.5rem;
   color: white;
   font-weight: 500;
 }
-.contactus2{
-  position:absolute;
+.contactus2 {
+  position: absolute;
   margin-top: 51.5rem;
   margin-left: 25rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.workwithus{
+.workwithus {
   position: absolute;
   margin-top: 54rem;
   margin-left: 25rem;
@@ -588,23 +580,23 @@ margin-left: 0.5rem;
   color: #fff;
   font-weight: 900;
 }
-.careers{
-  position:absolute;
+.careers {
+  position: absolute;
   margin-top: 56.5rem;
   margin-left: 25rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.internships{
-  position:absolute;
+.internships {
+  position: absolute;
   margin-top: 58.5rem;
   margin-left: 25rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.ourproducts{
+.ourproducts {
   position: absolute;
   margin-top: 45rem;
   margin-left: 47rem;
@@ -612,23 +604,23 @@ margin-left: 0.5rem;
   color: #fff;
   font-weight: 900;
 }
-.schoolandcollege{
-  position:absolute;
+.schoolandcollege {
+  position: absolute;
   margin-top: 47.5rem;
   margin-left: 47rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.cooperative{
-  position:absolute;
+.cooperative {
+  position: absolute;
   margin-top: 49.5rem;
   margin-left: 47rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
 }
-.hospital{
+.hospital {
   position: absolute;
   margin-top: 51.5rem;
   margin-left: 47rem;
@@ -636,25 +628,23 @@ margin-left: 0.5rem;
   color: white;
   font-weight: 500;
 }
-.lab{
+.lab {
   position: absolute;
   margin-top: 53.5rem;
   margin-left: 47rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
-
 }
-.business{
+.business {
   position: absolute;
   margin-top: 55.5rem;
   margin-left: 47rem;
   font-size: 14px;
   color: white;
   font-weight: 500;
-
 }
-.connectwithus{
+.connectwithus {
   position: absolute;
   margin-top: 45rem;
   margin-left: 62rem;
@@ -662,34 +652,47 @@ margin-left: 0.5rem;
   color: #fff;
   font-weight: 900;
 }
-.facebooklogo{
-  position: absolute;
+.facebooklogo {
+  /* position: absolute;
   margin-top: 48rem;
-  margin-left: 62rem;
-  width:20px;
-  height:20px;
+  margin-left: 62rem; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.facebook{
+.facebook {
   position: absolute;
   margin-top: 48rem;
   margin-left: 64rem;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
-  font-weight: 500;
-}
-.linkedlnlogo{
-  position: absolute;
-  margin-top: 50rem;
-  margin-left: 62rem;
-  width:20px;
-  height:20px;
-}
-.linkedln{
-  position: absolute;
-  margin-top: 50rem;
-  margin-left: 66rem;
-  font-size: 14px;
-  color: white;
-  font-weight: 500;
-}
+  font-weight: 700;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.linkedlnlogo {
+  /* position: absolute; */
+  /* margin-top: 50rem; */
+  /* margin-left: 62rem; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.linkedln {
+  position: absolute;
+  margin-top: 50rem;
+  margin-left: 63.73rem;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

@@ -138,6 +138,13 @@ img.handshake {
   border-radius: 0rem 0rem 0rem 7.6875rem;
   background: #f3efef;
   margin-top: 6rem;
+  overflow: hidden;
+}
+.mainfive > video {
+  object-fit: contain;
+  width: 38rem;
+  /* height: 38rem; */
+  /* display: none; */
 }
 .joinsystematic {
   color: #0b0b0c;

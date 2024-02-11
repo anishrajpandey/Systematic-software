@@ -31,7 +31,9 @@ function App() {
           web applications, and mobile applications. We assist businesses in
           envisioning and crafting futuristic digital experiences.{" "}
         </div>
-        <div className="mainfive"></div>
+        <div className="mainfive">
+          <video src="/intro.mp4" autoPlay loop></video>
+        </div>
         <div className="buttons">
           <div className="joinsystematic">
             Join Systematic

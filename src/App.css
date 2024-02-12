@@ -363,7 +363,7 @@ img:is(.sms, .setting, .googlemobile) {
 .footer {
   width: 100vw;
   background-color: #000;
-  height: 300rem;
+  height: 67rem;
   margin-top: 5rem;
 }
 .footerone {
@@ -656,8 +656,8 @@ img:is(.sms, .setting, .googlemobile) {
   /* position: absolute;
   margin-top: 48rem;
   margin-left: 62rem; */
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -678,8 +678,8 @@ img:is(.sms, .setting, .googlemobile) {
   /* position: absolute; */
   /* margin-top: 50rem; */
   /* margin-left: 62rem; */
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -688,6 +688,33 @@ img:is(.sms, .setting, .googlemobile) {
   margin-top: 50rem;
   margin-left: 63.73rem;
   font-size: 16px;
+  color: white;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.linetwo {
+  width: 74rem;
+  height: 1px;
+  position: absolute;
+  background-color: #a4a0a0;
+  margin-top: 63rem;
+  margin-left: 4.5rem;
+  margin-right: 3rem;
+}
+.copyright{
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}
+.allrights{
+  position: absolute;
+  margin-top: 64rem;
+  margin-left: 4.5rem;
+  font-size: 14px;
   color: white;
   font-weight: 700;
 

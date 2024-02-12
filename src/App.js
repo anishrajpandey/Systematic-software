@@ -238,6 +238,22 @@ function App() {
           </div>
           Linkedln
         </div>
+<div className="linetwo"></div>
+<div className="allrights">
+  {" "}
+  <div className="copyright">
+    <img 
+    src= "/copyright.svg"
+    alt="copyright"
+    className="copyright"
+    />
+  </div>
+  All rights reserved, Systematic 2024.
+</div>
+
+
+
+
       </div>
     </>
   );

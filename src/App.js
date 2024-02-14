@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -7,17 +8,33 @@ function App() {
       <div className="fcontainer">
         <div className="logo">Logo</div>
         <div className="menu">
-          <div className="home">Home</div>
-          <div className="services">Services</div>
-          <div className="joinus">Join Us</div>
-          <div className="blog">Blog</div>
-          <div className="aboutus">About Us</div>
-          <div className="cocreate">
-            <div className="cocreatewithus">
-              <img src="/handshake.png" alt="handshake" className="handshake" />
-              CO_CREATE WITH US
+          <Link to={"/"}>
+            <div className="home">Home</div>
+          </Link>
+          <Link to={"/services"}>
+            <div className="services">Services</div>
+          </Link>
+          <Link to={"/career"}>
+            <div className="joinus">Join Us</div>
+          </Link>
+          <Link to={"/"}>
+            <div className="blog">Blog</div>
+          </Link>
+          <Link to={"/about"}>
+            <div className="aboutus">About Us</div>
+          </Link>
+          <Link to={"/"}>
+            <div className="cocreate">
+              <div className="cocreatewithus">
+                <img
+                  src="/handshake.png"
+                  alt="handshake"
+                  className="handshake"
+                />
+                CO_CREATE WITH US
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="main">

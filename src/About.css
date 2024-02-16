@@ -1,43 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap");
 body {
-    font-family: "Raleway", sans-serif !important;
-    overflow-x: hidden;
+  font-family: "Raleway", sans-serif !important;
+  overflow-x: hidden;
 }
-.fone{
-    display: flex;
-    border-radius: 0rem 0rem 3.5rem 0em ;
-    background-color: rgb(203, 204, 205);
-    margin-top: 8rem;
-    margin-left: 5rem;
-    margin-right: 53rem;
+/* main.aboutmain {
+  width: 90vw;
+  margin: auto;
+  overflow: hidden;
+} */
+.fone {
+  display: flex;
+  border-radius: 0rem 0rem 3.5rem 0em;
+  background-color: rgb(203, 204, 205);
+  margin-top: 8rem;
+  margin-left: 5rem;
+  margin-right: 53rem;
 }
-.aboutone{
-   font-size: 1.85rem;
-   padding-left: 29rem;
-   margin-top: 6rem;
-   color: #304bab;
-   white-space: nowrap;
-   font-weight: 950;
+
+.aboutone {
+  font-size: 1.85rem;
+  padding-left: 29rem;
+  margin-top: 6rem;
+  color: #304bab;
+  white-space: nowrap;
+  font-weight: 950;
 }
-.aboutsys{
-    font-size: 16px;
-    margin-top: 1rem;
-    color: black;
-    font-weight: 400;
-    text-align: justify;
-  
+
+.ftwo {
+  margin: auto;
+  width: 100vw;
+  padding-inline: 5rem;
+  position: relative;
+  background: #f1f4ff;
+  height: 70vh;
+  /* background: red; */
+  top: -3rem;
+  z-index: -2;
 }
-.blue-text{
-    color: #304bab ;
-    font-size: 16px;
-    font-weight: 600;
+.boxtwo {
+  position: absolute;
+  right: 3rem;
+  display: flex;
+  top: 0;
+  width: 32vw;
+  height: 60vh;
+
+  border-radius: 0rem 0rem 0rem 3.5em;
+  background-color: rgb(203, 204, 205);
 }
-.coreframe{
-    display: flex;
+.abouttwo {
+  /* font-size: 1.85rem;
+  padding-left: 29rem;
+  margin-top: 6rem;
+  color: #304bab;
+  white-space: nowrap;
+  font-weight: 950; */
+}
+.aboutsys {
+  font-size: 16px;
+  margin-top: 1rem;
+  color: black;
+  font-weight: 400;
+  text-align: justify;
+}
+.blue-text {
+  color: #304bab;
+  font-size: 16px;
+  font-weight: 600;
+}
+.coreframe {
+  display: flex;
   margin-top: 5rem;
   border-radius: 0rem 0rem 0rem 3.5rem;
   margin-left: 8rem;
   margin-right: 5rem;
   background-color: rgb(159, 159, 162);
-
 }

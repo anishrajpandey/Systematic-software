@@ -40,7 +40,7 @@ const About = () => {
           </div>
         </div>
         <div className="ftwo">
-          <div className="boxtwo"></div>
+          <div className="boxtwoabout"></div>
           <div className="abouttwo">
             <br />
             About Us

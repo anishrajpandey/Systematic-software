@@ -1,61 +1,55 @@
 import logo from "./logo.svg";
 import "./App.css";
+import NavBar from "./components/global/nav";
+import Footer from "./components/global/footer";
 
 function App() {
+  // window.onload = () => {
+  //   document.querySelector("video").play();
+  // };
   return (
     <>
-      <div className="fcontainer">
-        <div className="logo">Logo</div>
-        <div className="menu">
-          <div className="home">Home</div>
-          <div className="services">Services</div>
-          <div className="joinus">Join Us</div>
-          <div className="blog">Blog</div>
-          <div className="aboutus">About Us</div>
-          <div className="cocreate">
-            <div className="cocreatewithus">
-              <img src="/handshake.png" alt="handshake" className="handshake" />
-              CO_CREATE WITH US
+      <NavBar />
+      <section id="home" className="main ">
+        <div className="hero-text">
+          <div>
+            <h1 className="hero-title">
+              RIGHT TIME-RIGHT REPORT:
+              <span> SYSTEMATIC SOFTWARE.</span>
+            </h1>
+            <div className="hero-sub-text">Software Development Center </div>
+            <div className="hero-paragraph">
+              As a software company, we design a variety of online/offline
+              software, web applications, and mobile applications. We assist
+              businesses in envisioning and crafting futuristic digital
+              experiences.
             </div>
           </div>
-        </div>
-      </div>
-      <div className="main">
-        <div className="mainone">
-          RIGHT TIME-RIGHT REPORT:
-          <span className="maintwo">SYSTEMATIC SOFTWARE.</span>
-        </div>
-        <div className="mainthree">Software Development Center </div>
-        <div className="mainfour">
-          As a software company, we design a variety of online/offline software,
-          web applications, and mobile applications. We assist businesses in
-          envisioning and crafting futuristic digital experiences.{" "}
-        </div>
-        <div className="mainfive">
-          <video src="/intro.mp4" autoPlay loop></video>
-        </div>
-        <div className="buttons">
-          <div className="joinsystematic">
-            Join Systematic
-            <div className="blackarrow">
+          <div className="buttons">
+            <div className="arrow-buttons joinsystematic">
+              Join Systematic
               <img src="/blackarrow.svg" alt="arrow" className="blackarrow" />
             </div>
-          </div>
 
-          <div className="buildwithus">
-            Build with Us
-            <div className="bluearrow">
+            <div className=" arrow-buttons buildwithus">
+              Build with Us
               <img src="/bluearrow.svg" alt="arrow" className="bluearrow" />
             </div>
           </div>
         </div>
+        <div className="hero-video">
+          <video autoPlay muted loop>
+            <source src="/intro.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <section id="services">
         <div className="fbluebox">
-          <div className="ourservices">Our Services</div>
-
-          <div className="fbox">
-            <div className="sms">
+          <div className="services-heading">Our Services</div>
+          <div className="services">
+            <div className="servicebox sms">
               <img src="/sms.svg" alt="sms" className="sms" />
-              <div class="text-below">
+              <div className="text-below">
                 <b> SMS</b>
                 <div className="textone">
                   With our Bulk SMS service, you can easily talk to your
@@ -64,9 +58,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="fbox">
-            <div className="googlemobile">
+            <div className="servicebox googlemobile">
               <img
                 src="/googlemobile.svg"
                 alt="Mobile"
@@ -82,9 +74,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="fbox">
-            <div className="setting">
+            <div className="servicebox setting">
               <img src="/setting.svg" alt="setting" className="setting" />
               <div className="text-below">
                 <b>Software Development</b>
@@ -97,150 +87,63 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="trusted">
-        Trusted by 150+ companies, growth-stage businesses, and emerging
-        ventures.
-      </div>
-      <div className="paraone">
-        <span className="sys">At Systematic,</span> we've had the privilege of
-        teaming up with some of the most innovative and forward-thinking
-        entities across various sectors, including education institutions like
-        schools, cooperatives, and businesses ranging from small enterprises to
-        large corporations. Whether in academia or diverse business landscapes,
-        they entrust us with the expertise and support needed to bring their
-        ideas to life.
-      </div>
-      <div className="examples">
-        <div className="lumbini">
-          <img
-            src="lmc-final-logo.svg"
-            alt="lumbini medical college"
-            className="lumbini"
-          />
-        </div>
-        <div className="kalika">
-          <img src="kalika.svg" alt="kalika school" className="kalika" />
-        </div>
-        <div className="kantipur">
-          <img src="kantipur.svg" alt="kantipur" className="kantipur" />
-        </div>
-        <div className="sanjeevani">
-          <img src="sanjeevani.svg" alt="sanjeevani" className="sanjeevani" />
-        </div>
-        <div className="sainamaina">
-          <img
-            src="sainamaina.svg"
-            alt="sainamain byapar sanga"
-            className="sainamaina"
-          />
-        </div>
-        <div className="rotary">
-          <img
-            src="rotary.svg"
-            alt="rotary club of butwal"
-            className="rotary"
-          />
-        </div>
-        <div className="oxford">
-          <img src="oxford.svg" alt="Oxford college" className="oxford" />
-        </div>
-        <div className="rambadevi">
-          <img
-            src="rambadevi.svg"
-            alt=" Rambadevi college"
-            className="rambadevi"
-          />
-        </div>
-      </div>
-      <div className="footer">
-        <div className="footerone"> Ready to get Started?</div>
-        <div className="boxone">
-          <div className="boxonetext">
-            Elevate your pace. Transform ideas into reality swiftly. Let's delve
-            deeper into possibilities together.
-          </div>
-          <div className="boxonetext2">
-            Let's delve deeper into possibilities together.
-          </div>
-          <div className="cocreate2">
-            Co-create with us
-            <img src="bluearrow.svg" alt="bluearrow" className="bluearrow" />
-          </div>
-        </div>
-
-        <div className="boxtwo">
-          <div className="boxtwotext">
-            You find inspiration in cutting-edge technology, dream of creating
-            with great companies, and aim to be an expert.
-          </div>
-          <div className="boxtwotext2">
-            We bring together smart, like-minded people for innovation and
-            learning. Let's connect.
-          </div>
-          <div className="joinus2">
-            Join Us
-            <img src="bluearrow.svg" alt="bluearrow" className="bluearrow" />
-          </div>
-        </div>
-        <div className="stayintheloop">Stay in the Loop</div>
-
-        <div className="boxthree">
-          <div className="youremail">Your email address</div>
-        </div>
-
-        <div className="boxfour">
-          <div className="subscribe">Subscribe for Updates</div>
-        </div>
-        <div className="line"></div>
-        <div className="systematic">SYSTEMATIC</div>
-        <div className="call">
-          <img src="call.svg" alt="call" className="call" />
-        </div>
-        <div className="number">9857024291</div>
-        <div className="mail">
-          <img src="/mail.svg" alt="mail" className="mail" />
-        </div>
-        <div className="mailid">systematic_software@yahoo.com</div>
-        <div className="wearesystematic">We are Systematic Software</div>
-        <div className="aboutus2">About Us</div>
-        <div className="blog2">Blog</div>
-        <div className="contactus2">Contact Us</div>
-        <div className="workwithus">Work with Us</div>
-        <div className="careers">Careers</div>
-        <div className="internships">Internships</div>
-        <div className="ourproducts">Our Products</div>
-        <div className="schoolandcollege">School and College</div>
-        <div className="cooperative">Co-operative Software</div>
-        <div className="hospital">Hospital Management</div>
-        <div className="lab">Lab Management</div>
-        <div className="business">Business Softwares</div>
-        <div className="connectwithus">Connect with Us</div>
-
-        <div className="facebook">
-          {" "}
-          <div className="facebooklogo">
+      </section>
+      <section id="clients" className="clients">
+        <h1>
+          Trusted by 150+ companies, growth-stage businesses, and emerging
+          ventures.
+        </h1>
+        <p className="paraone">
+          <span className="sys">At Systematic,</span> we've had the privilege of
+          teaming up with some of the most innovative and forward-thinking
+          entities across various sectors, including education institutions like
+          schools, cooperatives, and businesses ranging from small enterprises
+          to large corporations. Whether in academia or diverse business
+          landscapes, they entrust us with the expertise and support needed to
+          bring their ideas to life.
+        </p>
+        <div className="examples">
+          <div className="lumbini">
             <img
-              src="/facebook.png"
-              alt="facebooklogo"
-              className="facebooklogo"
+              src="lmc-final-logo.svg"
+              alt="lumbini medical college"
+              className="lumbini"
             />
           </div>
-          Facebook
-        </div>
+          <div className="kalika">
+            <img src="kalika.svg" alt="kalika school" className="kalika" />
+          </div>
 
-        <div className="linkedln">
-          {" "}
-          <div className="linkedlnlogo">
+          <div className="sanjeevani">
+            <img src="sanjeevani.svg" alt="sanjeevani" className="sanjeevani" />
+          </div>
+          <div className="sainamaina">
             <img
-              src="/linkedln.svg"
-              alt="linkedlnlogo"
-              className="linkedlnlogo"
+              src="sainamaina.svg"
+              alt="sainamain byapar sanga"
+              className="sainamaina"
             />
           </div>
-          Linkedln
+          <div className="rotary">
+            <img
+              src="rotary.svg"
+              alt="rotary club of butwal"
+              className="rotary"
+            />
+          </div>
+          <div className="oxford">
+            <img src="oxford.svg" alt="Oxford college" className="oxford" />
+          </div>
+          <div className="rambadevi">
+            <img
+              src="rambadevi.svg"
+              alt=" Rambadevi college"
+              className="rambadevi"
+            />
+          </div>
         </div>
-      </div>
+      </section>
+      <Footer />
     </>
   );
 }

@@ -33,7 +33,6 @@ body {
   position: relative;
   background: #f1f4ff;
   height: 70vh;
-  /* background: red; */
   top: -8rem;
   z-index: -2;
 }

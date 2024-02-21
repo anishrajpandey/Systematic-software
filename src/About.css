@@ -34,7 +34,7 @@ body {
   background: #f1f4ff;
   height: 70vh;
   /* background: red; */
-  top: -3rem;
+  top: -8rem;
   z-index: -2;
 }
 .boxtwoabout {
@@ -49,12 +49,12 @@ body {
   background-color: rgb(203, 204, 205);
 }
 .abouttwo {
-  /* font-size: 1.85rem;
-  padding-left: 29rem;
-  margin-top: 6rem;
+  font-size: 1.85rem;
+  padding-left: 1rem;
+  margin-top: 12rem;
   color: #304bab;
   white-space: nowrap;
-  font-weight: 950; */
+  font-weight: 950;
 }
 .aboutsys {
   font-size: 16px;
@@ -70,7 +70,7 @@ body {
 }
 .coreframe {
   display: flex;
-  margin-top: 5rem;
+  margin-top: 1rem;
   border-radius: 0rem 0rem 0rem 3.5rem;
   margin-left: 8rem;
   margin-right: 5rem;

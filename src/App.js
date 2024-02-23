@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/global/nav";
 import Footer from "./components/global/footer";
-
+import Slider from "./components/global/slider";
 function App() {
   // window.onload = () => {
   //   document.querySelector("video").play();
@@ -102,6 +102,7 @@ function App() {
           landscapes, they entrust us with the expertise and support needed to
           bring their ideas to life.
         </p>
+        <Slider/>
         <div className="examples">
           <div className="lumbini">
             <img

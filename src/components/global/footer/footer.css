@@ -25,8 +25,7 @@
   align-items: center;
 }
 .footer .get-started-section .box {
-  min-width: 14rem;
-  max-width: 20rem;
+  max-width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -76,6 +75,7 @@
   justify-content: center;
   margin-top: 2rem;
   gap: 2rem;
+  padding: 0 10rem
   /* background-color: antiquewhite; */
 }
 .line {
@@ -91,8 +91,7 @@
   font-weight: 700;
 }
 .news-letter input {
-  min-width: 20rem;
-  max-width: 25rem;
+  flex: 1;
   height: 3rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
   background: hsl(0, 0%, 100%);
@@ -198,11 +197,16 @@
     flex-direction: column;
     gap: 2rem;
   }
-
+  .news-letter{
+    padding: 0 2rem;
+  }
+  .footer .get-started-section .box {
+    width: 100%;
+    max-width: 100%;
+  }
   .footer-bottom .fotter-bottom-content {
     /* flex-direction: column; */
     width: 100%;
-    margin-top: 0;
   }
 }
 @media screen and (max-width: 768px) {

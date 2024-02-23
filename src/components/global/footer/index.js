@@ -49,12 +49,12 @@ const Footer = () => {
         </div>
         <div className="fotter-bottom-content">
           <div className="footer-columns">
-            <div className="title">Navlinks</div>
+            <div className="title">We are Systematic</div>
 
             <div className="aboutus  nav-link">About Us</div>
             <div className="blog  nav-link">Blog</div>
             <div className="contactus  nav-link">Contact Us</div>
-            <div className="workwithus  nav-link">Work with Us</div>
+            <div className="title">Work with Us</div>
             <div className="careers  nav-link">Careers</div>
             <div className="internships nav-link">Internships</div>
           </div>
@@ -95,52 +95,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="systematic">SYSTEMATIC</div>
-      <div className="call"></div>
-      <div className="number">9857024291</div>
-      <div className="mail">
-        <img src="/mail.svg" alt="mail" className="mail" />
-      </div>
-      <div className="mailid">systematic_software@yahoo.com</div>
-      <div className="wearesystematic">We are Systematic Software</div>
-      <div className="aboutus2">About Us</div>
-      <div className="blog2">Blog</div>
-      <div className="contactus2">Contact Us</div>
-      <div className="workwithus">Work with Us</div>
-      <div className="careers">Careers</div>
-      <div className="internships">Internships</div>
-      <div className="ourproducts">Our Products</div>
-      <div className="schoolandcollege">School and College</div>
-      <div className="cooperative">Co-operative Software</div>
-      <div className="hospital">Hospital Management</div>
-      <div className="lab">Lab Management</div>
-      <div className="business">Business Softwares</div>
-      <div className="connectwithus">Connect with Us</div>
-
-      <div className="facebook">
-        {" "}
-        <div className="facebooklogo">
-          <img
-            src="/facebook.png"
-            alt="facebooklogo"
-            className="facebooklogo"
-          />
-        </div>
-        Facebook
-      </div>
-
-      <div className="linkedln">
-        {" "}
-        <div className="linkedlnlogo">
-          <img
-            src="/linkedln.svg"
-            alt="linkedlnlogo"
-            className="linkedlnlogo"
-          />
-        </div>
-        Linkedln
-      </div> */}
+      <div className="line"></div>
     </div>
   );
 };

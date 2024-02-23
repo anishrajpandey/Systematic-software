@@ -1,0 +1,26 @@
+.tag-list {
+  margin: 0;
+  padding-inline: 0;
+  list-style: none;
+}
+.tag-list li {
+  padding: 1rem;
+}
+
+.scroller {
+  outline: 3px solid green;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.scroller[data-animated="true"] {
+  overflow: hidden;
+}
+.scroller[data-animated="true"] .scroller__inner {
+  flex-wrap: nowrap;
+  mask: linear-gradient(90deg, transparent, white, 20% , white 80%, transparent);
+}

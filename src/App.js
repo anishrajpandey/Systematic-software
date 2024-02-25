@@ -103,7 +103,7 @@ function App() {
           bring their ideas to life.
         </p>
         <Slider/>
-        <div className="examples">
+        {/* <div className="examples">
           <div className="lumbini">
             <img
               src="lmc-final-logo.svg"
@@ -142,7 +142,7 @@ function App() {
               className="rambadevi"
             />
           </div>
-        </div>
+        </div> */}
       </section>
       <Footer />
     </>

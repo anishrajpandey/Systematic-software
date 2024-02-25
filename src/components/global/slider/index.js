@@ -1,40 +1,64 @@
+"use strict";
 import React, { useEffect } from "react";
 import "./slider.css";
 const Slider = () => {
-  function addAnimation(scroller) {
+  function addAnimation() {
+    const scroller = document.querySelector(".scroller");
     scroller.setAttribute("data-animated", true);
+
+    const scrollerInner = scroller.querySelector(".scroller__inner");
+    const scrollerContent = Array.from(scrollerInner.children);
+    scrollerContent.forEach((item) => {
+      const dublicatedItem = item.cloneNode(true);
+      dublicatedItem.setAttribute("aria-hidden", true);
+      scrollerInner.appendChild(dublicatedItem);
+    });
   }
   useEffect(() => {
-    const scroller = document.querySelector(".scroller");
-    if (!window.matchMedia("(prefers-reduced-motion: reduce").matches) {
-      addAnimation(scroller);
-    }
+    addAnimation();
   }, []);
-
   return (
     <>
       <div className="scroller">
-        <ul class="tag-list scroller__inner" onload={() => {}}>
+        <ul class="tag-list scroller__inner">
           <li class="slide">
-            <img src="images/image1.png" />
+            <img
+              src="lmc-final-logo.svg"
+              alt="lumbini medical college"
+              className="lumbini"
+            />
           </li>
           <li class="slide">
-            <img src="images/image2.png" />
+            <img src="kalika.svg" alt="kalika school" className="kalika" />
           </li>
           <li class="slide">
-            <img src="images/image3.png" />
+            <img src="sanjeevani.svg" alt="sanjeevani" className="sanjeevani" />
           </li>
           <li class="slide">
-            <img src="images/image4.png" />
+            <img
+              src="sainamaina.svg"
+              alt="sainamain byapar sanga"
+              className="sainamaina"
+            />
           </li>
           <li class="slide">
-            <img src="images/image5.png" />
+            <img
+              src="rotary.svg"
+              alt="rotary club of butwal"
+              className="rotary"
+            />
           </li>
           <li class="slide">
-            <img src="images/image6.png" />
+            <div className="oxford">
+              <img src="oxford.svg" alt="Oxford college" className="oxford" />
+            </div>
           </li>
           <li class="slide">
-            <img src="images/image7.png" />
+            <img
+              src="rambadevi.svg"
+              alt=" Rambadevi college"
+              className="rambadevi"
+            />
           </li>
         </ul>
       </div>

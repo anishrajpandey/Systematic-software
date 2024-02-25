@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="news-letter">
-        <div className="stayintheloop">Stay In Loop</div>
+        <div className="stayintheloop">Stay in the Loop</div>
         <input type="text" placeholder="Enter your email" className="email" />
         <div className="button subscribe">Subscribe</div>
       </div>
@@ -72,8 +72,7 @@ const Footer = () => {
             <div className="row">
               <img src="call.svg" alt="call" className="footer-icon" />
               <span>
-                Kalika Marga,
-                <br /> Kathmandu, Nepal
+              Kalikanagar-10, Rupandehi, Nepal
               </span>
             </div>
             <div className="row">
@@ -82,7 +81,7 @@ const Footer = () => {
             </div>
             <div className="row">
               <img src="/mail.svg" alt="mail" className="footer-icon" />
-              <span>systematic@yahoo.com</span>
+              <span>systematic_software@yahoo.com</span>
             </div>
             <div className="row  nav-link">
               <img src="/facebook.png" alt="facebook" className="footer-icon" />

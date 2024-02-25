@@ -1,20 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap");
- 
-body {
-  font-family: "Raleway", sans-serif !important;
-  overflow-x: hidden;
+.aboutt{
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 5em;
 }
-
-.fone {
+.aboutt .box-one{
   display: flex;
   border-radius: 0rem 0rem 3.5rem 0em;
   background-color: rgb(203, 204, 205);
-  margin-top: 8rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 53rem;
+}
+.aboutt .text-one {
+  font-size: 1.5rem;
+  padding-left: 29rem;
+  margin-top: 1rem;
+  color: #304bab;
+  white-space: nowrap;
+  font-weight: 950;
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.aboutt {
+  display: flex;
+  flex: 1;
+  padding: 0 0 0 0rem;
+}
+.aboutt .box-one {
+  display: flex;
+  border-radius: 0rem 0rem 3.5rem 0em;
+  background-color: rgb(203, 204, 205);
+  margin-top: 2rem;
   margin-left: 5rem;
   margin-right: 53rem;
 }
 
-.aboutone {
+.aboutt .text-one {
   font-size: 1.85rem;
   padding-left: 29rem;
   margin-top: 6rem;
@@ -23,28 +58,28 @@ body {
   font-weight: 950;
 }
 
-.ftwo {
+.aboutt .box-two {
   margin: auto;
   width: 100vw;
   padding-inline: 5rem;
   position: relative;
   background: #f1f4ff;
   height: 70vh;
-  top: -8rem;
+  top: -9rem;
   z-index: -2;
 }
-.boxtwoabout {
+.aboutt .box-three {
   position: absolute;
   right: 3rem;
   display: flex;
-  top: 6rem;
-  width: 32vw;
-  height: 60vh;
+  margin-top: 0rem;
+  width: 30vw;
+  height: 70vh;
 
   border-radius: 0rem 0rem 0rem 3.5em;
   background-color: rgb(203, 204, 205);
 }
-.abouttwo {
+.aboutt .box-twotext {
   font-size: 1.85rem;
   padding-left: 1rem;
   margin-top: 12rem;
@@ -66,9 +101,9 @@ body {
 }
 .coreframe {
   display: flex;
-  margin-top: 1rem;
+  margin-top: 0rem;
   border-radius: 0rem 0rem 0rem 3.5rem;
   margin-left: 8rem;
   margin-right: 5rem;
   background-color: rgb(159, 159, 162);
-}
+}*/

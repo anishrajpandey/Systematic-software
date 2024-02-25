@@ -4,9 +4,6 @@ import NavBar from "./components/global/nav";
 import Footer from "./components/global/footer";
 import Slider from "./components/global/slider";
 function App() {
-  // window.onload = () => {
-  //   document.querySelector("video").play();
-  // };
   return (
     <>
       <NavBar />
@@ -103,46 +100,7 @@ function App() {
           bring their ideas to life.
         </p>
         <Slider/>
-        {/* <div className="examples">
-          <div className="lumbini">
-            <img
-              src="lmc-final-logo.svg"
-              alt="lumbini medical college"
-              className="lumbini"
-            />
-          </div>
-          <div className="kalika">
-            <img src="kalika.svg" alt="kalika school" className="kalika" />
-          </div>
-
-          <div className="sanjeevani">
-            <img src="sanjeevani.svg" alt="sanjeevani" className="sanjeevani" />
-          </div>
-          <div className="sainamaina">
-            <img
-              src="sainamaina.svg"
-              alt="sainamain byapar sanga"
-              className="sainamaina"
-            />
-          </div>
-          <div className="rotary">
-            <img
-              src="rotary.svg"
-              alt="rotary club of butwal"
-              className="rotary"
-            />
-          </div>
-          <div className="oxford">
-            <img src="oxford.svg" alt="Oxford college" className="oxford" />
-          </div>
-          <div className="rambadevi">
-            <img
-              src="rambadevi.svg"
-              alt=" Rambadevi college"
-              className="rambadevi"
-            />
-          </div>
-        </div> */}
+    
       </section>
       <Footer />
     </>

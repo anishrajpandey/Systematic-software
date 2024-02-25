@@ -8,19 +8,39 @@
 }
 
 .scroller {
-  outline: 3px solid green;
+  max-width: 100vw;
+  background-color: rgb(241, 241, 241);
+  padding: 0 5em;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  mask: linear-gradient(90deg, transparent, white, 20%, white 80%, transparent);
 }
 
 .scroller__inner {
   padding-block: 1rem;
   display: flex;
-  gap: 1rem;
   flex-wrap: wrap;
+  gap: 2rem;
+}
+.scroller__inner img {
+  object-fit: contain;
 }
 .scroller[data-animated="true"] {
   overflow: hidden;
 }
+.scroller[data-animated="true"]:hover .scroller__inner {
+  animation-play-state: paused;
+}
 .scroller[data-animated="true"] .scroller__inner {
   flex-wrap: nowrap;
-  mask: linear-gradient(90deg, transparent, white, 20% , white 80%, transparent);
+  width: max-content;
+  animation: scroll 100s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-50% - 1rem));
+  }
 }

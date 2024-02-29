@@ -7,9 +7,23 @@ const About = () => {
     <>
     <NavBar/>
     <section id="about" className="aboutt">
-        <div className="box-one">
-          <div className="text-one">About Us</div>
+        <div className="box-one"></div>
+          <div className="text-one">About Us
+          <br/>
+          <br/>
+          <div className="aboutsys">
+          Established in 2006 A.D., Systematic Software is the first Software Development Center <br/>
+          in Western Nepal, located in Butwal. We specialize in providing advanced technology <br/>
+          support, creating customized application packages for various professional institutions <br/>
+          and organizations.<br/>
+          <br/>
+          With a track record of success, we've collaborated with financial institutions, investment<br/>
+          companies, educational sectors, automobile industries, hospitals, and more. Thousands of<br/>
+          users have chosen Systematic Software as their trusted technology partner.<br/>
+          
+           </div>
           </div>
+          
           </section>
     <Footer/>
    

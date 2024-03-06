@@ -227,10 +227,10 @@ body {
 @media screen and (max-width: 768px) {
   .main {
     flex-direction: column-reverse;
-    padding: 0;
+    padding: 0 0;
   }
   .main .hero-text {
-   margin-top:  3rem;
+    margin-top: 3rem;
   }
   .main .hero-video {
     height: 50vh;
@@ -252,12 +252,12 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .clients h1{
-    padding: 0em ;
+  .clients h1 {
+    padding: 0em;
     font-size: 2rem;
     text-align: center;
   }
   .clients .paraone {
-    padding:0;
+    padding: 0;
   }
 }

@@ -9,10 +9,11 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
-import About from "./About";
-import Career from "./Career";
-import CoCreate from "./CoCreate";
-import Contact from "./Contact";
+import About from "./pages/About/About";
+import CoCreate from "./pages/CoCreate/CoCreate";
+import Contact from "./pages/Contact/Contact";
+import Career from "./pages/Career/Career";
+import Services from "./pages/Services/Services";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,7 +24,7 @@ root.render(
       <Routes>
         <Route Component={App} exact path="/" />
 
-        <Route Component={About} path="/services" />
+        <Route Component={Services} path="/services" />
 
         <Route Component={Career} path="/career" />
 

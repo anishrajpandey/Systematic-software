@@ -111,6 +111,22 @@ body {
 }
 
 /* SERVICES SECTION STAART */
+#services{
+  position: relative;
+  margin-bottom: 5rem;
+}
+#services  .services_background {
+  /* background-image: url("https://i.pinimg.com/736x/1e/96/4a/1e964a46109e107641f14c8a7f137882.jpg"); */
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 20%;
+  bottom: -20%;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
 .fbluebox {
   width: calc(100% - 5em);
   padding: 2rem 5rem;
@@ -243,6 +259,7 @@ body {
   .main .hero-text {
     padding: 0 2rem;
   }
+  
   .fbluebox {
     padding: 2rem;
     width: 100%;

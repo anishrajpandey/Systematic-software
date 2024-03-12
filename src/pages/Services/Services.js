@@ -54,7 +54,9 @@ export default function Services() {
         <div className="products_description">
           <div className="products_description_container" id="school">
             <div className="content">
-              <h2>School and Colleges</h2>
+              <div>
+                <h2>School and Colleges</h2>
+              </div>
               <p>
                 The Systematic Schooling Software is equipped with user-friendly
                 dashboards, providing login access for administrators and staff.
@@ -79,7 +81,7 @@ export default function Services() {
           </div>
           <div className="products_description_container" id="cooperative">
             <div className="content">
-              <h2>School and Colleges</h2>
+              <h2>Co-operative Software</h2>
               <p>
                 The Systematic Schooling Software is equipped with user-friendly
                 dashboards, providing login access for administrators and staff.

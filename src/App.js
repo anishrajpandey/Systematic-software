@@ -84,6 +84,7 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="services_background"></div>
       </section>
       <section id="clients" className="clients">
         <h1>

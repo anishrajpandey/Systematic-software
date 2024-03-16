@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  margin-top: 3em;
+  margin-top: 0em;
   padding-right: 5em;
   padding-bottom: 2em;
 }
@@ -111,6 +111,22 @@ body {
 }
 
 /* SERVICES SECTION STAART */
+#services{
+  position: relative;
+  margin-bottom: 5rem;
+}
+#services  .services_background {
+  /* background-image: url("https://i.pinimg.com/736x/1e/96/4a/1e964a46109e107641f14c8a7f137882.jpg"); */
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 20%;
+  bottom: -20%;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
 .fbluebox {
   width: calc(100% - 5em);
   padding: 2rem 5rem;
@@ -227,7 +243,10 @@ body {
 @media screen and (max-width: 768px) {
   .main {
     flex-direction: column-reverse;
-    padding: 0;
+    padding: 0 0;
+  }
+  .main .hero-text {
+    margin-top: 3rem;
   }
   .main .hero-video {
     height: 50vh;
@@ -240,6 +259,7 @@ body {
   .main .hero-text {
     padding: 0 2rem;
   }
+  
   .fbluebox {
     padding: 2rem;
     width: 100%;
@@ -249,12 +269,12 @@ body {
     padding-left: 2rem;
     padding-right: 2rem;
   }
-  .clients h1{
-    padding: 0em ;
+  .clients h1 {
+    padding: 0em;
     font-size: 2rem;
     text-align: center;
   }
   .clients .paraone {
-    padding:0;
+    padding: 0;
   }
 }

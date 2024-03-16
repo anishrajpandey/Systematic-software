@@ -20,40 +20,40 @@ const Slider = () => {
   return (
     <>
       <div className="scroller">
-        <ul class="tag-list scroller__inner">
-          <li class="slide">
+        <ul className="tag-list scroller__inner">
+          <li className="slide">
             <img
               src="lmc-final-logo.svg"
               alt="lumbini medical college"
               className="lumbini"
             />
           </li>
-          <li class="slide">
+          <li className="slide">
             <img src="kalika.svg" alt="kalika school" className="kalika" />
           </li>
-          <li class="slide">
+          <li className="slide">
             <img src="sanjeevani.svg" alt="sanjeevani" className="sanjeevani" />
           </li>
-          <li class="slide">
+          <li className="slide">
             <img
               src="sainamaina.svg"
               alt="sainamain byapar sanga"
               className="sainamaina"
             />
           </li>
-          <li class="slide">
+          <li className="slide">
             <img
               src="rotary.svg"
               alt="rotary club of butwal"
               className="rotary"
             />
           </li>
-          <li class="slide">
+          <li className="slide">
             <div className="oxford">
               <img src="oxford.svg" alt="Oxford college" className="oxford" />
             </div>
           </li>
-          <li class="slide">
+          <li className="slide">
             <img
               src="rambadevi.svg"
               alt=" Rambadevi college"

@@ -20,12 +20,13 @@ const About = () => {
           With a track record of success, we've collaborated with financial institutions, investment<br/>
           companies, educational sectors, automobile industries, hospitals, and more. Thousands of<br/>
           users have chosen Systematic Software as their trusted technology partner.<br/>
-          
+          <br/>
+          <span className="bluetext">Join us in building success through innovation and reliability</span>
            </div>
           </div>
           
           </section>
-    <Footer/>
+    <Footer/> 
    
 
     </>

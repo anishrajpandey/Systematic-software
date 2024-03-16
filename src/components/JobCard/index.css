@@ -1,0 +1,22 @@
+.jobContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+}
+.jobContainer:hover .arrowBlue {
+  transform: translateX(5px);
+}
+.jobContainer .jobDescriptionItems {
+  flex-direction: row;
+  display: flex;
+  gap: 1rem;
+}
+.jobContainer .arrowBlue {
+  transition: all 200ms ease;
+  cursor: pointer;
+}
+.jobContainer .arrowBlue:hover {
+  transform: translateX(5px);
+}

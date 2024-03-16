@@ -18,7 +18,8 @@ body {
 }
 
 /* HERO SECTION START */
-.main {
+
+.main#home {
   display: flex;
   flex: 1;
   padding: 0 0 0 5em;
@@ -111,11 +112,11 @@ body {
 }
 
 /* SERVICES SECTION STAART */
-#services{
+#services {
   position: relative;
   margin-bottom: 5rem;
 }
-#services  .services_background {
+#services .services_background {
   /* background-image: url("https://i.pinimg.com/736x/1e/96/4a/1e964a46109e107641f14c8a7f137882.jpg"); */
   background-color: rgb(241, 241, 241);
   position: absolute;
@@ -259,7 +260,7 @@ body {
   .main .hero-text {
     padding: 0 2rem;
   }
-  
+
   .fbluebox {
     padding: 2rem;
     width: 100%;

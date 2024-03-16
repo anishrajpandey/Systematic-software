@@ -5,7 +5,7 @@ const JobCard = () => {
   return (
     <div className="jobContainer">
       <div>
-        <h3>Job Title</h3>
+        <h4>Job Title</h4>
         <div className="jobDescriptionItems">
           <div>
             <svg
@@ -50,7 +50,7 @@ const JobCard = () => {
         </div>
       </div>
       <div className="arrowBlue">
-        <img src="/bluearrow.svg" alt="arrow" height={24} width={24}  />
+        <img src="/bluearrow.svg" alt="arrow" height={24} width={24} />
       </div>
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"

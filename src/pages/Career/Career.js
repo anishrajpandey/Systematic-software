@@ -28,12 +28,7 @@ export default function Career() {
       <NavBar />
       <section id="contact" className="career">
         <div className="headingsContainer">
-          <h1
-            style={{
-              textTransform: "uppercase",
-              fontWeight: "bold",
-            }}
-          >
+          <h1 className="headingTitle">
             Current <span className="headingTextBlue">Openings</span>
           </h1>
           <p>
@@ -55,30 +50,15 @@ export default function Career() {
           ))}
         </div>
         <div className="headingsContainer">
-          <h1
-            style={{
-              textTransform: "uppercase",
-              fontWeight: "bold",
-            }}
-          >
-            Internships
-          </h1>
+          <h1 className="headingTitle">Internships</h1>
           <p>
             No internships available, but you can leave your CV here. We will
             let you know if your fit is open.
           </p>
 
           <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "center",
-              alignItems: "center",
-              marginInline: "auto",
-              gap: "1rem",
-              maxWidth: "60%",
-              marginTop: "2rem",
-            }}
+            className="uploadCvContainer"
+           
           >
             <FileInput placeholder="Upload your CV" />
             <a href="/contact" className="btn btn-primary">

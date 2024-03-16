@@ -12,6 +12,8 @@
   flex-direction: row;
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
+  margin-right: 2rem;
 }
 .jobContainer .arrowBlue {
   transition: all 200ms ease;

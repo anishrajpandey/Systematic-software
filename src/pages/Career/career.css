@@ -19,6 +19,28 @@
   background-color: var(--white);
   /* margin-top: 1rem; */
 }
+.headingTitle {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 .headingTextBlue {
   color: var(--primary);
+}
+.uploadCvContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+  max-width: 70%;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .career {
+    padding: 0 1rem;
+  }
+  .uploadCvContainer {
+    max-width: 100%;
+  }
 }

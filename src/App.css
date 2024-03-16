@@ -242,7 +242,7 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .main {
+  .main#home {
     flex-direction: column-reverse;
     padding: 0 0;
   }

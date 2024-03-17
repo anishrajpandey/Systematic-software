@@ -19,19 +19,16 @@
 .file-input-label {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #eaeaea;
+  /* background-color: var(--light-gray); */
   width: 100%;
   color: #333;
   border-radius: 5px;
-}
-
-/* File input label hover */
-.file-input-label:hover {
-  background-color: #ccc;
+  border: 2px solid var(--light-gray);
 }
 
 /* File input label focus */
-.file-input-label:focus {
-  outline: none;
+.file-input-container:focus-within {
+  /* outline: none; */
+  outline: 2px solid var(--primary);
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
 }

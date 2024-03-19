@@ -7,14 +7,14 @@ const FileInput = ({ placeholder }) => {
     setFile(e.target.files[0]);
   };
   return (
-    <div class="file-input-container">
+    <div className="file-input-container">
       <input
         type="file"
         id="file"
-        class="file-input"
+        className="file-input"
         onChange={handleFileChange}
       />
-      <label for="file" class="file-input-label">
+      <label htmlFor="file" className="file-input-label">
         {file ? file.name : placeholder ? placeholder : "Select File"}
       </label>
     </div>

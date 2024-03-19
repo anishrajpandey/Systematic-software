@@ -40,7 +40,7 @@ export default function Career() {
           {jobs.map((job, index) => (
             <>
               <JobCard
-                key={index}
+                key={`job-card-${index}`}
                 title={job.title}
                 location={job.location}
                 description={job.description}

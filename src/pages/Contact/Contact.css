@@ -1,0 +1,84 @@
+section.contact {
+  padding: 1rem 5rem;
+}
+section.contact .container {
+  margin-bottom: 2rem;
+}
+section.contact .heading {
+  margin-block: 3rem;
+}
+section.contact .heading h1 {
+  font-weight: bold;
+}
+
+section.contact .heading h1 span {
+  color: var(--primary);
+}
+
+section.contact .heading p {
+  font-weight: 400;
+  line-height: 1.7;
+  color: #999999;
+  margin: 20px 0 60px;
+  padding: 0;
+}
+
+section.contact .form-control {
+  padding: 25px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border: 0;
+  border-radius: 10px;
+}
+
+section.contact button.btn {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  background: var(--primary);
+  color: #ffffff;
+}
+
+section.contact .title h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+section.contact .title p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999;
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+section.contact .content .info {
+  margin-top: 30px;
+}
+section.contact .content .info i {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  color: #02434b;
+  margin-right: 20px;
+  text-align: center;
+  width: 20px;
+}
+section.contact .content .info h4 {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+section.contact .content .info h4 span {
+  font-size: 13px;
+  font-weight: 300;
+  color: #999999;
+}
+@media screen and (max-width: 768px) {
+  section.contact {
+    padding: 0 1rem;
+  }
+  section.contact .content .info {
+    margin-bottom: 30px;
+  }
+}

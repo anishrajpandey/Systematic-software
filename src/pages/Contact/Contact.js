@@ -19,7 +19,7 @@ export default function Contact() {
               <br />
             </p>
           </div>
-          <div class="row">
+          <div class="row ">
             <div class="col-md-5">
               <div class="title">
                 <h3>Contact details</h3>

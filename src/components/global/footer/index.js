@@ -1,96 +1,90 @@
 import React from "react";
 import "./footer.css";
+import { footer, products } from "../../../utils/data";
+import { Link } from "react-router-dom";
 const Footer = () => {
+  const { newsletter, navLinks, socialLinks, cards } = footer;
   return (
     <div className="footer">
-      <div className="footer-title"> Ready to get Started?</div>
+      <h2 className="footer-title"> Ready to get Started?</h2>
       <div className="get-started-section">
-        <div className="get-started-boxes">
-          <div className="box boxone">
-            <div className="text">
-              Elevate your pace. Transform ideas into reality swiftly. Let's
-              delve deeper into possibilities together.
+        {cards.map((card, index) => {
+          return (
+            <div
+              className={`box box${index + 1}`}
+              style={{
+                backgroundImage: `url(${card.image})`,
+              }}
+            >
+              <div className="content">
+                <h5 className="text">{card.text}</h5>
+                <p className="text">{card.subtext}</p>
+                <h5 className="footer-button">
+                  {card.buttonText}
+                  <img
+                    src="bluearrow.svg"
+                    alt="bluearrow"
+                    className="bluearrow"
+                  />
+                </h5>
+              </div>
             </div>
-            <div className="text">
-              Let's delve deeper into possibilities together.
-            </div>
-            <div className="footer-button">
-              Build with us
-              <img src="bluearrow.svg" alt="bluearrow" className="bluearrow" />
-            </div>
-          </div>
-          <div className="box boxtwo">
-            <div className="text">
-              You find inspiration in cutting-edge technology, dream of creating
-              with great companies, and aim to be an expert.
-            </div>
-            <div className="text">
-              We bring together smart, like-minded people for innovation and
-              learning. Let's connect.
-            </div>
-            <div className=" footer-button">
-              Join Us
-              <img src="bluearrow.svg" alt="bluearrow" className="bluearrow" />
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </div>
       <div className="news-letter">
-        <div className="stayintheloop">Stay in the Loop</div>
-        <input type="text" placeholder="Enter your email" className="email" />
-        <div className="button subscribe">Subscribe</div>
+        <h4 className="stayintheloop">{newsletter.title}</h4>
+        <input
+          type="text"
+          placeholder={newsletter.placeholder}
+          className="email"
+        />
+        <div className="button subscribe">{newsletter.buttonText}</div>
       </div>
       <div className="line"></div>
       <div className="footer-bottom">
         <div className="footer-columns">
           <div className="logo">
-            <img src="/kalika.svg" />
+            <img src={footer.logo} alt="logo" />
           </div>
         </div>
         <div className="fotter-bottom-content">
           <div className="footer-columns">
-            <div className="title">We are Systematic</div>
-
-            <div className="aboutus  nav-link">About Us</div>
-            <div className="blog  nav-link">Blog</div>
-            <div className="contactus  nav-link">Contact Us</div>
-            <div className="title">Work with Us</div>
-            <div className="careers  nav-link">Careers</div>
-            <div className="internships nav-link">Internships</div>
+            {navLinks.map((navLink, index) => (
+              <>
+                <div className="title">{navLink.header}</div>
+                {navLink.links.map((link, index) => (
+                  <Link
+                    key={index}
+                    className="nav-link"
+                    to={{
+                      pathname: link.url,
+                    }}
+                  >
+                    {link.name}
+                  </Link>
+                ))}
+              </>
+            ))}
           </div>
 
           <div className="footer-columns">
             <div className="title">Our Products</div>
-            <div className="schoolandcollege nav-link">School and College</div>
-            <div className="cooperative nav-link">Co-operative Software</div>
-            <div className="hospital nav-link">Hospital Management</div>
-            <div className="lab nav-link">Lab Management</div>
-            <div className="business nav-link">Business Softwares</div>
+            {products.map((product, index) => (
+              <div key={index} className="nav-link">
+                {product.name}
+              </div>
+            ))}
           </div>
+
           <div className="footer-columns">
             <div className="title">Connect with Us</div>
-            <div className="row">
-              <img src="call.svg" alt="call" className="footer-icon" />
-              <span>
-              Kalikanagar-10, Rupandehi, Nepal
-              </span>
-            </div>
-            <div className="row">
-              <img src="/call.svg" alt="call" className="footer-icon" />
-              <span>9857024291</span>
-            </div>
-            <div className="row">
-              <img src="/mail.svg" alt="mail" className="footer-icon" />
-              <span>systematic_software@yahoo.com</span>
-            </div>
-            <div className="row  nav-link">
-              <img src="/facebook.png" alt="facebook" className="footer-icon" />
-              <span> Facebook</span>
-            </div>
-            <div className="row  nav-link">
-              <img src="/linkedln.svg" alt="linkedln" className="footer-icon" />
-              <span>Linkedln</span>
-            </div>
+            {socialLinks.map((link, index) => (
+              <div key={index} className="row nav-link">
+                <img src={link.logo} alt={link.name} className="footer-icon" />
+                <span> {link.name}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>

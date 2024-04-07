@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="fcontainer">
-      <div className="logo">Logo</div>
+      <h2 className="logo">Logo</h2>
       <input className="menu-btn" type="checkbox" id="menu-btn" />
 
       <ul className="nav">
@@ -27,7 +27,7 @@ const NavBar = () => {
         <Link style={{ textDecoration: "none" }} to="/cocreate">
           <li className="cocreate">
             <img src="/handshake.png" alt="handshake" className="handshake" />
-            <span>CREATE WITH US</span>
+            <div>CREATE WITH US</div>
           </li>
         </Link>
       </ul>

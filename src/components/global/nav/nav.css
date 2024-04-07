@@ -24,16 +24,9 @@
 .logo {
   flex-shrink: 0;
   color: var(--primary);
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
 }
 .navlinks {
   color: var(--gray);
-  font-size: 1rem;
-  font-style: normal;
-  line-height: normal;
   transition: 500ms ease-in-out;
   cursor: pointer;
   position: relative;
@@ -139,12 +132,10 @@
   padding: 0.8em 0.8em;
   transition: 500ms ease-in-out;
   color: #fff;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 800;
   display: flex;
   align-items: center;
   gap: 0.5em;
+  font-weight: 600;
 }
 img.handshake {
   width: 20px;
@@ -179,7 +170,7 @@ img.handshake {
     display: inline-block;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .fcontainer {
     padding: 1em 2em;
   }

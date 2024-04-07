@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700;900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-:root {
-  --black: #0a0a0a;
-  --white: #ffffff;
-  --gray: #292929;
-  --primary: #304bab;
-  font-size: 16px;
-}
-body {
-  font-family: "Raleway", sans-serif !important;
-  overflow-x: hidden;
-  font-size: 16px;
-}
+
 
 /* HERO SECTION START */
 
@@ -36,7 +20,6 @@ body {
 .main .hero-text .hero-title {
   color: var(--black);
   font-family: Raleway;
-  font-size: 3rem;
   font-style: normal;
   font-weight: 800;
 }
@@ -62,10 +45,6 @@ body {
 .hero-sub-text {
   color: var(--black);
   font-family: Raleway, sans-serif;
-  font-size: 1.25rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-top: 0.5em;
   margin-bottom: 2em;
   letter-spacing: 2.5px;
@@ -73,11 +52,6 @@ body {
 .hero-paragraph {
   color: var(--black);
   text-align: justify;
-  font-family: Raleway;
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2rem;
   letter-spacing: 2.5px;
   margin-bottom: 2em;
 }
@@ -88,10 +62,6 @@ body {
 }
 .arrow-buttons {
   font-family: Raleway, sans-serif;
-  font-size: 1.2rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
   display: flex;
   flex-direction: row;
   gap: 0.5em;
@@ -139,10 +109,7 @@ body {
 .services-heading {
   color: #fff;
   font-family: Raleway;
-  font-size: 2rem;
   text-transform: uppercase;
-  font-weight: 600;
-  line-height: normal;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -175,7 +142,6 @@ body {
 
 .text-below {
   text-align: justify;
-  font-size: 1rem;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -189,31 +155,24 @@ body {
   display: flex;
   align-items: center;
   font-family: Raleway;
-  font-size: 1rem;
   color: #fff;
   justify-content: center;
   align-items: flex-start;
 }
 /* CLIENTS SECTION */
 .clients {
-  padding: 5em 0em;
+  padding: 5em 5em;
   text-align: center;
   font-weight: 600;
 }
 .clients h1 {
-  padding: 0 2em;
-  font-weight: bold;
-  font-size: 3rem;
-  font-style: Raleway;
   text-align: center;
 }
 
 .clients .paraone {
-  font-size: 1rem;
-  padding: 1em 9em;
   text-align: center;
-  font-weight: 380;
-  letter-spacing: 3.15px;
+  padding-bottom: 2em;
+  padding-inline: 5em;
 }
 .sys {
   font-weight: bold;
@@ -277,7 +236,6 @@ body {
   }
   .clients h1 {
     padding: 0em;
-    font-size: 2rem;
     text-align: center;
   }
   .clients .paraone {

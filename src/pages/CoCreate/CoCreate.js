@@ -50,7 +50,7 @@ export default function CoCreate() {
             </div>
 
             <div
-            className="col-md-6 bg-red"
+              className="col-md-6 "
               style={{
                 marginTop: "4rem",
                 flex: 1,
